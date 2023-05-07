@@ -4,8 +4,6 @@ This repository contains the code for a real-time dashboard that displays data c
 # Developer's Guide
 The app is divided into two parts : frontend and backend 
 
-<br></br>
-
 ## Frontend  
 Steps to run:  
 1. Run `npm install` command to install all dependencies.  
