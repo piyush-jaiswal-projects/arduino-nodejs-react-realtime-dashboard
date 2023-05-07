@@ -7,23 +7,27 @@ You can see frontend over this link:
 [WebApp](https://dreamy-dodol-f0c20f.netlify.app/)
 
 # Developer's Guide
-The app is divided into two parts : frontend and backend 
 
-## Frontend  
 Steps to run:  
-1. Run `npm install` command to install all dependencies.  
-2. Create `.env` file inside frontend/src directory.  
-3. Define the path on which your backend is or will be hosted:  
-`REACT_APP_Backend_Path = "http://localhost:4000"`  
-4. Now run command `npm start`  
+1. Run `cd frontend/` and then `npm install` commands in terminal to install all dependencies.  
+2. Now run command `npm start` in terminal to start your react app.  
+Your frontend is now running.
 
-## Backend  
-Steps to run:  
-1. Run `npm install` command to install all dependencies.  
-2. Create `.env` file inside backend directory.  
-3. Define the following variables, where USBPortPath is the path of the USB port of your system, ReactAppURL is the address where your frontend in hosted locally, and PORT is the port number on which you want to host your backend:  
-`USBPortPath='/dev/tty.SLAB_USBtoUART'`
-`ReactAppURL="http://localhost:3000"`
+Now to run backend:  
+1. Run `cd ..` and `cd backend/` commands in your terminal one by one to go to your backend directory.  
+2. Now run `npm install` command to install all dependencies.  
+3. Now run command `npm start`
+
+# TroubleShooting  
+1. You might geeting errors related to some variables.
+2. Search `.env` file inside backend directory.  
+3. Define or change the following variables value corresponding to your system and need, where  
+USBPortPath: is the path of the USB port of your system  
+`USBPortPath='/dev/tty.SLAB_USBtoUART'`  
+
+ReactAppURL is the address where your frontend in hosted locally  
+`ReactAppURL="http://localhost:3000"`  
+
+and PORT is the port number on which you want to host your backend  
 `PORT = 4000` 
-4. Now run command `npm start`
 
