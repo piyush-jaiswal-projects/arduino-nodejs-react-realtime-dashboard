@@ -1,0 +1,5 @@
+*node-modules
+
+./backend/node-modules
+
+node-modules/
