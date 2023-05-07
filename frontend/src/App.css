@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(74, 73, 73);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Msg{
+  display: none;
+  color: white;
+}
+
+.margin-0{
+  margin: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header{
+  height: 75px;
+  border-bottom: 1px solid rgb(150, 148, 148);
+  background-color: #282c34;
+}
+
+.app-header h2{
+  color: rgb(238, 236, 236);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 3vw;
+  margin: 10px;
+}
+
+@media screen and (max-width: 700px){
+
+  /* .App-contents{
+    display: none;
+  }
+
+  .Msg{
+    display: block;
+  } */
+
+  .app-card{
+    width: 40%;
+    height: 35%;
+  }
+  
+}
