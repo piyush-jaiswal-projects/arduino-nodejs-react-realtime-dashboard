@@ -13,6 +13,7 @@ Steps to run:
 4. Now run command `npm start`  
 
 ## Backend  
+Steps to run:  
 1. Run `npm install` command to install all dependencies.  
 2. Create `.env` file inside backend directory.  
 3. Define the following variables, where USBPortPath is the path of the USB port of your system, ReactAppURL is the address where your frontend in hosted locally, and PORT is the port number on which you want to host your backend:  
