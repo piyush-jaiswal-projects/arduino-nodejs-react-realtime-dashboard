@@ -19,7 +19,7 @@ Now to run backend:
 3. Now run command `npm start`
 
 # TroubleShooting  
-1. You might geeting errors related to some variables.
+1. You might be getting some errors related to some variables.
 2. Search `.env` file inside backend directory.  
 3. Define or change the following variables value corresponding to your system and need, where  
 USBPortPath: is the path of the USB port of your system  
